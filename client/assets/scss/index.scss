@@ -1,0 +1,31 @@
+html, body {
+    background-color: black;
+}
+
+.alive-container {
+    height: calc(100vh - 16px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alive-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    animation: aliveTextAnimation 2s ease-in-out infinite;
+}
+
+@keyframes aliveTextAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
