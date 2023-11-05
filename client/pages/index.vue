@@ -7,7 +7,7 @@
 <script setup>
 import { ref } from 'vue';
 
-const aliveText = ref('If you see this, probably you\'r alive.');
+const aliveText = ref('If you see this, you\'re probably alive.');
 
 const aliveTextWithAnimation = computed(() => {
     const text = aliveText.value.split(' ');
