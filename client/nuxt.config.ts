@@ -13,8 +13,8 @@ const config: NuxtConfig = {
         { rel: 'icon', href: 'https://i.imgur.com/uYWgYwg.png', type: 'image/x-icon' }
       ],
       meta: [
-        { name: 'title', content: 'Wolimby - Social' },
-        { name: 'description', content: 'eZAZ.' }
+        { name: 'title', content: 'Are you alive?' },
+        { name: 'description', content: 'You can check here, if you\'r alive. Easily. Safely. Fast.' }
       ]
     },
     rootId: 'app'
