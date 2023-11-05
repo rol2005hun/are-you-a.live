@@ -14,7 +14,7 @@ const config: NuxtConfig = {
       ],
       meta: [
         { name: 'title', content: 'Are you alive?' },
-        { name: 'description', content: 'You can check here, if you\'r alive. Easily. Safely. Fast.' }
+        { name: 'description', content: 'You can check here, if you\'re alive. Easily. Safely. Fast.' }
       ]
     },
     rootId: 'app'
